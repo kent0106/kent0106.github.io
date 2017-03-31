@@ -7,13 +7,12 @@ layout: default
     <div class="aside">
       <div class="info-card">
         <h1>your name</h1>
-        <a href="#" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-        <a href="#" target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-        <a href="#" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
+       <span>联系电话</span>
+       <span>联系电话</span>
       </div>
       <div id="particles-js"></div>
     </div>
-
+    
     <div class="index-content">
       <ul class="artical-list">
         {% for post in site.categories.blog %}
@@ -26,5 +25,5 @@ layout: default
     </div>
   </div>
 
-  
+
 </body>
